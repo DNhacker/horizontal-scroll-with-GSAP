@@ -8,7 +8,7 @@ A visually engaging horizontal timeline that showcases achievements and mileston
 - **Interactive Design**: Simple yet effective design with interactive scroll effects to enhance engagement.
 - **Responsive**: Adapts to different screen sizes for smooth experience across devices.
 
-Technologies Used
+## Technologies Used
 GSAP (GreenSock Animation Platform) for animations.
 
 HTML5, CSS3, and JavaScript for structure and functionality.
@@ -16,8 +16,5 @@ HTML5, CSS3, and JavaScript for structure and functionality.
 Responsive Design to ensure it works seamlessly across devices.
 
 
-Contributing
-Contributions are welcome! Feel free to fork the repo, submit issues, or create pull requests for improvements.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Contributing
+Contributions are welcome! Feel free to fork the repo, submit issues.
