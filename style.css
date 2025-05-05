@@ -1,0 +1,67 @@
+// if you have already have the body so just add overflow-x hidden in your body
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#achievements-section-wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.achievements-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.achievements-title {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 10;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.scroll-wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.achievements-track {
+  display: flex;
+  height: 100vh;
+  width: 800%; /* 8 cards */
+}
+
+.achievement-card {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.card-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
